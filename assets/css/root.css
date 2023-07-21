@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;200;400;600&family=Roboto:wght@100;300;400;500&family=Rye&family=Work+Sans:wght@100;200;400;500;600&display=swap');
+:root {
+    --fs-15: 15px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-44: 44px;
+    --fs-48: 48px;
+    --fs-32: 32px;
+
+    --fw-300: 300;
+    --fw-600: 600;
+    --fw-400: 400;
+    --fw-700: 700;
+    --fw-500: 500;
+    
+}
+.ff {
+    font-family:Plus Jakarta Sans;
+}
+
+.fw-300 {
+    font-weight: var(--fw-300);
+}
+.fw-400 {
+    font-weight: var(--fw-400);
+}
+.fw-700 {
+    font-weight: var(--fw-700);
+}
+.fw-500 {
+    font-weight: var(--fw-500);
+}
+.fw-600 {
+    font-weight: var(--fw-600);
+}
+
+
+.fs-15 {
+    font-size: var(--fs-15);
+}
+.fs-16 {
+    font-size: var(--fs-16);
+}
+.fs-18 {
+    font-size: var(--fs-18);
+}
+.fs-20 {
+    font-size: var(--fs-20);
+}
+.fs-32 {
+    font-size: var(--fs-32);
+}
+.fs-44 {
+    font-size: var(--fs-44);
+}
+.fs-48 {
+    font-size: var(--fs-48);
+}
