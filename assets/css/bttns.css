@@ -1,0 +1,96 @@
+.bttn-clr-radius{
+    border-radius: 40px;
+    background: linear-gradient(175deg, rgba(0, 136, 255, 0.58) 0%, #0069E3 100%);
+    box-shadow: 0px 4px 32px 0px rgba(39, 70, 237, 0.50);
+    transition: all 0.5s;
+}
+.nav-bttn:hover ,.hro-bttn:hover, .page2-bttn:hover, .page5-bttn:hover, .page8-bttn:hover,.page8-box-bttn2:hover {
+    background: #000 !important;
+   transform: scale(1.1);
+}
+.nav-bttn {
+    padding: 13px 32px;
+    border: none;
+    transition: all 1s  !important;
+}
+
+.hro-bttn {
+    padding: 13px 32px;
+    border: none;
+    margin-top: 28px;
+}
+
+.page2-bttn {
+    margin-bottom: 50px;
+    margin-top: 30px;
+    padding: 13px 32px;
+    border: none;
+}
+
+.page5-bttn {
+    margin-top: 30px;
+    color: var(--white, #FBFDFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170%;
+    text-transform: capitalize;
+    display: flex;
+    border: none;
+    padding: 13px 32px;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.small-bttn {
+    color: var(--white, #FBFDFF);
+    font-family: Poppins;
+    font-size: 9.816px;
+    font-weight: 500;
+    border-radius: 44.988px;
+    background: linear-gradient(135deg, #0389FF 0%, #0069E3 100%) !important;
+    padding: 3.272px 15px;
+    border: none;
+}
+
+.page6-bttn {
+    /* margin-top: 76px !important;
+    max-width: 150px !important; */
+    text-align: center;
+    padding: 13px 32px;
+    gap: 8px;
+    border: none;
+}
+
+.page8-bttn {
+    border: none;
+    margin-top: 28px !important;
+    display: flex;
+    padding: 13px 32px;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.page8-box-bttn {
+    background: transparent;
+    display: inline-flex;
+    padding: 13px 32px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 40px;
+    border: 1px solid var(--white, #FBFDFF);
+    opacity: 0.699999988079071;
+    box-shadow: 0px 4px 32px 0px rgba(39, 70, 237, 0.50);
+}
+.page8-box-bttn:hover{
+    border: 1px solid blue;
+}
+
+.page8-box-bttn2 {
+    display: inline-flex;
+    padding: 13px 32px;
+    align-items: flex-start;
+    gap: 8px;
+    border: none;
+}
